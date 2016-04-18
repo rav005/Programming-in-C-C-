@@ -1,0 +1,55 @@
+Passed test    1 (load(nullptr))
+Passed test    2 (load(PREFIX))
+GS1Prefix Tests
+===============
+Passed test    3 (isRegistered(prefix, -1))
+Passed test    4 (isRegistered(prefix, 99955))
+Passed test    5 (isRegistered(prefix, 0))
+Passed test    6 (isRegistered(prefix, -1, "0"))
+Passed test    7 (isRegistered(prefix, 99955, "0"))
+Passed test    8 (isRegistered(prefix, 0, "10"))
+Passed test    9 (isRegistered(prefix, 99955, "0"))
+Passed test   10 (minNoDigits(prefix, -1))
+Passed test   11 (minNoDigits(prefix, 0))
+Passed test   12 (minNoDigits(prefix, 92))
+
+GS1 Prefix Tests passed!
+
+EAN Tests
+=========
+ Invalid check digit. Try again.
+Passed test   13 (isValid(nullptr))
+ Invalid check digit. Try again.
+Passed test   14 (isValid(""))
+passed all  the calculation
+Passed test   15 (isValid("9789070002046"))
+ Invalid check digit. Try again.
+Passed test   16 (isValid("9789070002043"))
+
+EAN Tests passed!
+
+EAN Registered Tests
+====================
+Passed test   17 (isRegistered(prefix, "9789070002046", ...))
+This EAN is not registered.
+Passed test   18 (isRegistered(prefix, "9789995500009", ...))
+Passed test   19 (isRegistered(prefix, ...) returned true for 9780000000002)
+Passed test  119 (isRegistered(prefix, ...) returned true for 9788070000007)
+Passed test  219 (isRegistered(prefix, ...) returned true for 9789020000009)
+Passed test  319 (isRegistered(prefix, ...) returned true for 9789559500001)
+Passed test  419 (isRegistered(prefix, ...) returned true for 9789679989007)
+Passed test  519 (isRegistered(prefix, ...) returned true for 9789781990007)
+Passed test  619 (isRegistered(prefix, ...) returned true for 9789946000008)
+Passed test  719 (isRegistered(prefix, ...) returned true for 9789961700006)
+Passed test  819 (isRegistered(prefix, ...) returned true for 9789976999907)
+Passed test  919 (isRegistered(prefix, ...) returned true for 9789990389005)
+Passed test 1019 (isRegistered(prefix, ...) returned true for 9789992200001)
+Passed test 1119 (isRegistered(prefix, ...) returned true for 9789993990000)
+
+
+EAN Registered Tests had errors!
+
+Your Bookstore modules have passed 1139 of 1139 tests
+
+Congratulations!!!   Your Bookstore modules are ready for submission
+
