@@ -1,0 +1,17 @@
+[
+    {
+        "Name": "Game Engine Techniques",
+        "CPA": "GAM532",
+        "BSD": "DPS932"
+    },
+    {
+        "Name": "Data Structures And Algorithms In C++",
+        "CPA": "DSA555",
+        "BSD": ""
+    },
+    {
+        "Name": "Windows Programming Using C#",
+        "CPA": "",
+        "BSD": "DPS910"
+    }
+]
